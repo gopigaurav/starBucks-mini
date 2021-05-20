@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img class="logo" src="images/logo.png" /></a>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Its just Starbucks</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eius,
+            consequatur iure culpa qui possimus tenetur nulla voluptate
+            voluptates, facilis facere, natus sequi! Laudantium totam, quo
+            asperiores ad soluta libero exercitationem vero fugit fuga? Magni
+            dolore veniam minus quibusdam soluta aliquam debitis saepe! Quasi
+            eius ad quos odit, culpa deserunt!
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="imgBox">
+          <img src="images/img1.png" class="starbucks" alt="" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img src="images/thumb1.png" onclick="imgSlider('images/img1.png')" />
+        </li>
+        <li>
+          <img src="images/thumb2.png" onclick="imgSlider('images/img2.png')" />
+        </li>
+        <li>
+          <img src="images/thumb3.png" onclick="imgSlider('images/img3.png')"/>
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="images/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <script typre="text/javascript">
+    function imgSlider(anything){
+        document.querySelector(".starbucks").src = anything;
+    }
+    </script>
+  </body>
+</html>
